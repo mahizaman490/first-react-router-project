@@ -1,12 +1,13 @@
 const Post = ({post}) => {
     const {id,title} = post;
-    const userStyle = {
-        border : '2px solid yellow',
+    const PostStyle = {
+        border : '2px solid red',
         padding : '5px',
-        borderRadius: '20px'
+        borderRadius: '20px',
+        backgroundColor: 'tomato'
     }
     return (
-        <div style={userStyle}>
+        <div style={PostStyle}>
             <h4>Post of id:{id}</h4>
             <h4>Post title :{title}</h4>
             
